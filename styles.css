@@ -1,0 +1,120 @@
+header {
+    background-color: #fff; /* Header background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bottom shadow effect */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Poppins font */
+    background-color: #f2f2f2; /* Concrete light grey color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px; /* Adjust the maximum width of your logo */
+    margin-bottom: 20px; /* Add some space between the logo and the text */
+}
+
+.logo img {
+    width: 100px; /* Adjust the width of your logo */
+    padding: 10px; /* Add padding around the logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333; /* Adjust link color */
+}
+
+.appointment-button {
+    border: 2px solid #000; /* Black border */
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.appointment-button a {
+    text-decoration: none;
+    color: #000; /* Button text color */
+    font-weight: bold;
+}
+
+.maintenance-container {
+    text-align: center;
+}
+
+.maintenance-container h1 {
+    color: #000b25; /* Header text color */
+}
+
+.maintenance-container p {
+    color: #000b25; /* Paragraph text color */
+}
+
+footer {
+    background-color: #052659; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-right {
+    flex: 2;
+    font-size: small;
+    text-align: right;
+}
+
+.company-logo {
+    width: 200px; /* Adjust the maximum width of your company logo */
+}
+
+.copyright {
+    text-align: center;
+}
+
+.wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
